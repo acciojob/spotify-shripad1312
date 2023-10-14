@@ -14,6 +14,8 @@ public class SpotifyRepository {
     public HashMap<User, List<Playlist>> userPlaylistMap;
     public HashMap<Song, List<User>> songLikeMap;
 
+
+
     public List<User> users;
     public List<Song> songs;
     public List<Playlist> playlists;
@@ -29,6 +31,7 @@ public class SpotifyRepository {
         creatorPlaylistMap = new HashMap<>();
         userPlaylistMap = new HashMap<>();
         songLikeMap = new HashMap<>();
+
 
         users = new ArrayList<>();
         songs = new ArrayList<>();
